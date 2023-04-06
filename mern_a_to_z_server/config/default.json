@@ -1,3 +1,3 @@
 {
-  "mongoURI": "mongodb://localhost:27017/yourDBName"
+  "mongoURI": "mongodb+srv://thayanila725:ZLPyo8ISxFMP7TEB@cluster.c1jknir.mongodb.net/?retryWrites=true&w=majority"
 }

@@ -1,20 +1,20 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import CreateBook from './components/CreateBook';
-import ShowBookList from './components/ShowBookList';
-import ShowBookDetails from './components/ShowBookDetails';
-import UpdateBookInfo from './components/UpdateBookInfo';
+import CreateJob from './components/CreateJob';
+import ShowJobList from './components/ShowJobList';
+import ShowJobDetails from './components/ShowJobDetails';
+import UpdateJobInfo from './components/UpdateJobInfo';
 
 const App = () => {
   return (
     <Router>
       <div>
         <Routes>
-          <Route exact path='/' element={<ShowBookList />} />
-          <Route path='/create-book' element={<CreateBook />} />
-          <Route path='/edit-book/:id' element={<UpdateBookInfo />} />
-          <Route path='/show-book/:id' element={<ShowBookDetails />} />
+          <Route exact path='/' element={<ShowJobList />} />
+          <Route path='/create-job' element={<CreateJob />} />
+          <Route path='/edit-job/:id' element={<UpdateJobInfo />} />
+          <Route path='/show-job/:id' element={<ShowJobDetails />} />
         </Routes>
       </div>
     </Router>
